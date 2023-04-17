@@ -1,0 +1,127 @@
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    background-image: url(../images/wp7558832.jpg);
+    background-size: cover;
+}
+
+.intro-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(37, 198, 198);
+}
+
+.landing p {
+    padding-left: 15px;
+}
+
+
+
+.our-skills .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(min-width:992px) {
+    .our-skills .container {
+        flex-basis: 45%;
+    }
+
+}
+
+@media(max-width:767px) {}
+
+.our-skills .container .testimonials {
+    padding: 30px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.our-skills .container .testimonials h3 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+
+}
+
+.our-skills .container .testimonials p {
+    color: var(--p-color);
+    margin: 20px 0 20px;
+    line-height: 1.8;
+    text-align: end;
+}
+
+.our-skills .container .testimonials .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:991px) {
+    .our-skills .container .testimonials .content {
+        text-align: center;
+        justify-content: space-evenly;
+
+    }
+
+    .our-skills .container .testimonials p {
+        /* margin-left: 0; */
+    }
+
+}
+
+.our-skills .container .testimonials .content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.our-skills .container .testimonials .content .text {
+    width: 350px;
+    margin-bottom: 0;
+}
+
+.our-skills .container .testimonials ul {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.our-skills .container .testimonials ul li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid var(--p-color);
+    margin-right: 10px;
+    background-color: white;
+}
+
+.our-skills .container .testimonials ul .active {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.our-skills .container .skills {
+    padding: 30px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.our-skills .container .skills h3 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+
+}
+
+.our-skills .container .skills p {
+    color: var(--p-color);
+    margin: 40px 0;
+    line-height: 1.8;
+}
